@@ -6,5 +6,11 @@
 <img [src]="foto">
 <br>
 <button (click)="exibir()">Enviar Alerta</button>
-<br>
+<br> <br>
 <input type="text" [(ngModel)] ="title"/>
+<br><br>
+<h2>Peso</h2><input type="text" [(ngModel)] ="Peso"/>
+<h2>Altura</h2><input type="text" [(ngModel)] ="Altura"/>
+<br> <br>
+<button (click)="mostrar(Peso,Altura)">Calcular Imc</button>
+
